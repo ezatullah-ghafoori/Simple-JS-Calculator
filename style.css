@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    background-color: rgb(179, 179, 174);
+    height: 400px;
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    padding-bottom: 10px;
+    padding: 10px;
+    box-shadow: inset -3px -3px 5px black ,inset 3px 3px 5px black;
+    border-radius: 10px;
+}
+#logo{
+    height: 20px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-family:'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+}
+#calculator{
+    font-size: 9px;
+    color: blue;
+}
+#label{
+    display: block;
+    height: 40px;
+    width: 280px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 6px black;
+    font-size: 32px;
+    text-align: center;
+}
+#label2{
+    display: block;
+    height: 20px;
+    width: 180px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 6px black;
+    margin-top: 20px;
+    font-size: 19px;
+    text-align: center;
+}
+.on_Off{
+    font-size: 12px;
+    margin-top: 10px;
+    height: 30px;
+    width: 40px;
+    padding: 5px;
+    border-right: 2px solid black;
+    display: block;
+    float: left;
+    margin-left: 4px;
+}
+#C{
+    margin-top: 10px;
+    margin-left: 8px;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#backspace{
+    margin-top: 10px;
+    margin-left: 4px;
+    height: 40px;
+    width: 180px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+/* colmns */
+.col1{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 40px;
+    width: 60px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.col2{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 40px;
+    width: 60px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.col3{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 40px;
+    width: 60px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.col4{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 40px;
+    width: 60px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+/* end of colmns */
+#zero{
+    width: 208px;
+}
+#equls_sign{
+    width: 208px;
+}

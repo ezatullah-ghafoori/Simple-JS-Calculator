@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EuG Calculator</title>
+</head>
+<body>
+    <div class="main">
+        <h3 id="logo">EuG <span id="calculator">Calculator</span></h3>
+        <label id="label"></label>
+        <label id="label2"></label>
+        
+        <div class="on_Off">
+        
+        <input type="radio" name="on_Off" id="on">
+        <label for="on" id="lableForOn">ON</label><br>
+        
+        <input type="radio" name="on_Off" id="off">
+        <label for="off">OFF</label>
+        </div>
+
+        <input type="button" value="C" id="C">
+        <input type="button" value="Backspace" id="backspace">
+        <!--first raw-->
+        <input type="button" value="1" class="col1" id="btn1">
+        <input type="button" value="2" class="col2" id="btn2">
+        <input type="button" value="3" class="col3" id="btn3">
+        <input type="button" value="+" class="col4" id="btn_plus">
+        <!--end of first raw-->
+        <!--second raw-->
+        <input type="button" value="4" class="col1" id="btn4">
+        <input type="button" value="5" class="col2" id="btn5">
+        <input type="button" value="6" class="col3" id="btn6">
+        <input type="button" value="-" class="col4" id="btn_min">
+        <!--end of second raw-->
+        <!--3rd raw-->
+        <input type="button" value="7" class="col1" id="btn7">
+        <input type="button" value="8" class="col2" id="btn8">
+        <input type="button" value="9" class="col3" id="btn9">
+        <input type="button" value="x" class="col4" id="btn_x">
+        <!--end of 3rd raw-->
+        <!--3rd raw-->
+        <input type="button" value="0" class="col1" id="zero">
+        <input type="button" value="/" class="col2" id="btn_div">
+        <input type="button" value="." class="col3" id="btn_dot">
+        <input type="button" value="=" class="col4" id="equls_sign">
+        <!--end of 3rd raw-->
+    </div>
+
+    <script defer src="Calculator.js"></script>
+</body>
+</html>
